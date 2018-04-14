@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Test email</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <h1>Mail tester</h1>
+        <form id="mail_tester_form">
+            <div class="form-group">
+                <label for="smtp_identifier">smtp identifier</label>
+                <input class="form-control" type="text" name="smtp_identifier" id="smtp_identifier">
+            </div>
+            <div class="form-group">
+                <label for="smtp_pwd">smtp password</label>
+                <input class="form-control" type="text" name="smtp_pwd" id="smtp_pwd">
+            </div>
+            <div class="form-group">
+                <label for="smtp_host">smtp host</label>
+                <input class="form-control" type="text" name="smtp_host" id="smtp_host">
+            </div>
+            <div class="form-group">
+                <label for="smtp_encryption">smtp encryption</label>
+                <input class="form-control" type="text" name="smtp_encryption" id="smtp_encryption">
+            </div>
+            <div class="form-group">
+                <label for="smtp_port">smtp port</label>
+                <input class="form-control" type="text" name="smtp_port" id="smtp_port">
+            </div>
+            <div class="form-group">
+                <label for="mail_from">mail from</label>
+                <input class="form-control" type="text" name="mail_from" id="mail_from">
+            </div>
+            <div class="form-group">
+                <label for="mail_to">mail to</label>
+                <input class="form-control" type="text" name="mail_to" id="mail_to">
+            </div>
+            <div class="form-group">
+                <label for="lib">lib</label>
+                <select class="form-control" id="lib" name="lib">
+                    <option value="SwiftMailer">SwiftMailer</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="try">try</label>
+                <input class="form-control" type="number" name="try" id="try">
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+    <div id="response_message"></div>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <!--<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+    <script src="assets/js/app.js"></script>
+</body>
+</html>
